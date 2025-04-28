@@ -9,5 +9,5 @@ COPY views/ /app/app/views/
 
 
 # 暴露端口与启动命令
-EXPOSE 5000
-CMD ["gunicorn" "-c" "gunicorn.conf.py" "manage:app"]
+# EXPOSE 5000
+#　CMD ["gunicorn" "-c" "gunicorn.conf.py" "manage:app"]
