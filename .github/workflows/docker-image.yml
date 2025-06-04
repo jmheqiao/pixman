@@ -1,14 +1,14 @@
-名字: Docker Image CI/CD
+name: Docker Image CI/CD
 
 on:
   push:
-    分支: ["main"]
+    branches: ["main"]
     paths:
       - "Dockerfile"
       - "channel_list/​**​"
       - "views/​**​"
   pull_request:  # 新增：PR时触发，用于代码审查
-    分支: ["main"]
+    branches: ["main"]
     paths:
       - "Dockerfile"
       - "channel_list/​**​"
@@ -22,27 +22,27 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     steps:
-      - 名字: Checkout code
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - 名字: Set up Docker Buildx
+      - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      - 名字: Login to Docker Hub
+      - name: Login to Docker Hub
         # 仅在push事件时登录，避免PR时误推送[4](@ref)
         if: github.event_name == 'push'
         uses: docker/login-action@v3
         with:
-          用户名: ${{ secrets.DOCKERHUB_USERNAME }}
-          密码: ${{ secrets.DOCKERHUB_TOKEN }}
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - 名字: Build and push Docker image
+      - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
           context: .
           platforms: linux/amd64,linux/arm64
           push: ${{ github.event_name == 'push' }}  # PR时仅构建不推送
-          标签: |
+          tags: |
             ${{ env.DOCKER_IMAGE }}:latest
             ${{ env.DOCKER_IMAGE }}:${{ github.sha }}
           cache-from: type=gha
