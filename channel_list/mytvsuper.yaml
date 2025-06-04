@@ -268,12 +268,6 @@ CGE:
   group: 綜合
   logo: https://assets.livednow.com/logo/中國環球電視網-英語頻道.png
   clearkey: 4331903278b673916cc6940a8b8d9e7e:02a409115819de9acd9e907b053e3aa8
-CMN1:
-  channel_name: 神州新聞台
-  tvg_id: 神州新聞台
-  group: 新聞財經
-  logo: https://assets.livednow.com/logo/神州新聞台.png
-  clearkey: 7ee6ed08925f4716c8d0943e7bdb3e5f:6f3c1e31b30ccac36d466f41489ceb27
 CTSN:
   channel_name: 無線衛星新聞台
   tvg_id: 無線衛星新聞台
@@ -434,77 +428,77 @@ CC4:
   channel_name: 中國中央電視台中文國際頻道
   tvg_id: 中國中央電視台中文國際頻道
   group: 綜合
-  logo: https://live.fanmingming.cn/tv/CCTV4.png
+  logo: https://assets.livednow.com/logo/CCTV4-欧洲.png
   clearkey: 9b2762e6912e2f37a1cad1df9af6dc6e:f4edc1240a3e852661c0607db463a6dd
 CCE:
   channel_name: 中國中央電視台娛樂頻道
   tvg_id: 中國中央電視台娛樂頻道
   group: 綜合
-  logo: https://live.fanmingming.cn/tv/CCTV3.png
+  logo: https://upload.wikimedia.org/wikipedia/zh/8/88/CCTV_Entertainment_Channel_Logo.png
   clearkey: e173591f7ab25dbc47f6c05abcbb92c7:21c5e4987d1e255d0e171280ad13d815
 CCO:
   channel_name: 中國中央電視台戲曲頻道
   tvg_id: 中國中央電視台戲曲頻道
   group: 電影戲劇
-  logo: https://live.fanmingming.cn/tv/CCTV11.png
+  logo: https://upload.wikimedia.org/wikipedia/zh/6/68/CCTV_Opera_Channel_Logo.png
   clearkey: 310ee76e894b8361fefdedf5c7b50983:f113fcca4a982e53ba2fc31e7fbf6e2c
 YNTV:
   channel_name: 雲南瀾湄國際衛視
   tvg_id: 雲南瀾湄國際衛視
   group: 綜合
-  logo: https://live.fanmingming.cn/tv/云南卫视.png
+  logo: https://assets.livednow.com/logo/澜湄国际卫视.png
   clearkey: 7ec2be4ec767b0a7b23bb9d665c39dab:738f330e2e319ee51ebcb8f2d0614f0a
 AHTV:
   channel_name: 安徽廣播電視台國際頻道
   tvg_id: 安徽廣播電視台國際頻道
   group: 綜合
-  logo: https://live.fanmingming.cn/tv/安徽卫视.png
+  logo: https://assets.livednow.com/logo/安徽卫视.png
   clearkey: 460151d2b91a7504c6e7fcdc2e5b3ccc:a2900973ab6de674a8535fd1627f8cce
 BJTV:
   channel_name: 北京電視台國際頻道
   tvg_id: 北京電視台國際頻道
   group: 綜合
-  logo: https://live.fanmingming.cn/tv/北京卫视.png
+  logo: https://assets.livednow.com/logo/北京卫视.png
   clearkey: a8965a188153cee562c067ba66b0f0fb:c373bfab2e75b979beefbb6b370bcdc2
 GXTV:
   channel_name: 廣西電視台國際頻道
   tvg_id: 廣西電視台國際頻道
   group: 綜合
-  logo: https://live.fanmingming.cn/tv/广西卫视.png
+  logo: https://assets.livednow.com/logo/广西卫视.png
   clearkey: e5d541db8252789f10a05d4b26325532:0b2fb5ab1b5c9df031e7086147a0f853
 FJTV:
   channel_name: 福建海峽衛視國際頻道
   tvg_id: 福建海峽衛視國際頻道
   group: 綜合
-  logo: https://live.fanmingming.cn/tv/海峡卫视.png
+  logo: https://assets.livednow.com/logo/海峡卫视.png
   clearkey: 3d5e3a2fd144c5f196cbcb9d037b417d:7be2fcb0ee5efe52ff95b0866f183abb
 HNTV:
   channel_name: 湖南電視台國際頻道
   tvg_id: 湖南電視台國際頻道
   group: 綜合
-  logo: https://live.fanmingming.cn/tv/湖南卫视.png
+  logo: https://assets.livednow.com/logo/湖南卫视.png
   clearkey: a43885f5c495e3ce5b1162ecb5c35c03:e506caf7a71025850e8823c07a1b29dc
 JSTV:
   channel_name: 江蘇電視台國際頻道
   tvg_id: 江蘇電視台國際頻道
   group: 綜合
-  logo: https://live.fanmingming.cn/tv/江苏卫视.png
+  logo: https://assets.livednow.com/logo/江苏国际频道.png
   clearkey: 5287fd241995f7b097597c4349bea5b5:23398eb21eee12ddb9a9df1dd6373687
 GBTV:
   channel_name: 廣東廣播電視台大灣區衛視頻道
   tvg_id: 廣東廣播電視台大灣區衛視頻道
   group: 綜合
-  logo: https://live.fanmingming.cn/tv/广东卫视.png
+  logo: https://assets.livednow.com/logo/大湾区卫视.png
   clearkey: 25049a9d742e24329e009d2a8a02b4bd:914a1b9442ba239aaa5a8f63c6e10f83
 ZJTV:
   channel_name: 浙江電視台國際頻道
   tvg_id: 浙江電視台國際頻道
   group: 綜合
-  logo: https://live.fanmingming.cn/tv/浙江卫视.png
+  logo: https://assets.livednow.com/logo/浙江卫视.png
   clearkey: 8799940a2a97f5eb997753983be48fe5:53c4b68330f10e5507d3c0647703031e
 SZTV:
   channel_name: 深圳衛視國際頻道
   tvg_id: 深圳衛視國際頻道
   group: 綜合
-  logo: https://live.fanmingming.cn/tv/深圳卫视.png
+  logo: https://assets.livednow.com/logo/深圳国际频道.png
   clearkey: a265a47191734322dc32596c771887cc:5d19d055e814b3fcc521afe772ecf110
