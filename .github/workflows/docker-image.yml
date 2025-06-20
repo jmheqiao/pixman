@@ -9,7 +9,7 @@ on:
       - "views/​**​"
 
 env:
-  DOCKER_IMAGE: ${{ secrets.DOCKERHUB_USERNAME }}/pmn  # 替换为实际 DockerHub 仓库名
+  DOCKER_IMAGE: ${{ secrets.DOCKERHUB_USERNAME }}/pix  # 替换为实际 DockerHub 仓库名
 
 jobs:
   build-and-push:
